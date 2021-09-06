@@ -1,0 +1,30 @@
+name: challenge
+
+on: push
+
+jobs:
+    job1:
+        name: First job
+        runs-on: ubuntu-latest
+        steps:
+            - name: Step One
+              run: date
+    job2:
+        name: Second Job
+        runs-on: windows-latest
+        steps:
+            - name: Step one
+              run: "Get-Date"
+    job3:
+        name: Third Job
+        runs-on: macos-latest
+        steps:
+          - name: Step one
+            run: date
+    job4:
+      name: Fourth job
+      runs-on: ubuntu-latest
+      depends-on: [job1, job2,job3]
+      steps:
+        -name: Step one
+         run: echo finished Fourth job

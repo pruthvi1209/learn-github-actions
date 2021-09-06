@@ -22,9 +22,9 @@ jobs:
           - name: Step one
             run: date
     job4:
-      name: Fourth job
-      runs-on: ubuntu-latest
-      depends-on: [job1, job2,job3]
-      steps:
-        -name: Step one
-         run: echo finished Fourth job
+        name: Fourth job
+        runs-on: ubuntu-latest
+        depends-on: [job1, job2,job3]
+        steps:
+          - name: Step one
+            run: echo finished Fourth job

@@ -1,15 +1,15 @@
-name: using actions
+# name: using actions
 
-on: push
+# on: push
 
-jobs:
-  using-actions:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      # - id: foo
-      #   uses: ./.github/actions/action
-      #   with:
-      #     who-to-greet: 'Pruthivi'
-      - run: goodbye.sh
-        shell: bash
+# jobs:
+#   using-actions:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       # - id: foo
+#       #   uses: ./.github/actions/action
+#       #   with:
+#       #     who-to-greet: 'Pruthivi'
+#       - run: goodbye.sh
+#         shell: bash

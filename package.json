@@ -1,0 +1,13 @@
+{
+  "name": "learn-github-actions",
+  "version": "1.0.0",
+  "description": "A yarn project setup",
+  "main": "index.js",
+  "repository": "https://github.com/pruthvi1209/learn-github-actions.git",
+  "author": "Pruthivi",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "echo hello world"
+  }
+}

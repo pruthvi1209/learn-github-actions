@@ -3,13 +3,13 @@ name: using actions
 on: push
 
 jobs:
-  name: job one
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v2
-    - id: foo
-      uses: actions/action@v1
-      with:
-        who-to-greet: 'Pruthivi'
-    - run: ./actions/goodbye
-      shell: bash
+  using-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - id: foo
+        uses: actions/action@v1
+        with:
+          who-to-greet: 'Pruthivi'
+      - run: ./actions/goodbye
+        shell: bash

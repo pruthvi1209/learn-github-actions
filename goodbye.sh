@@ -1,1 +1,1 @@
-echo "Goodbye executed"
+echo "Goodbye executed added execute permission"

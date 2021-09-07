@@ -8,8 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: foo
-        uses: ./actions/action@v1
+        uses: ./.github/actions/action@v1
         with:
           who-to-greet: 'Pruthivi'
-      - run: ./actions/goodbye
+      - run: ./.github/actions/goodbye
         shell: bash

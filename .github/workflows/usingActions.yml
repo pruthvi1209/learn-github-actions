@@ -6,7 +6,7 @@ jobs:
   using-actions:
     runs-on: ubuntu-latest
     steps:
-      # - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
       # - id: foo
       #   uses: ./.github/actions/action
       #   with:

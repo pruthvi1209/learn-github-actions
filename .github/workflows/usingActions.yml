@@ -11,5 +11,5 @@ jobs:
       #   uses: ./.github/actions/action
       #   with:
       #     who-to-greet: 'Pruthivi'
-      - run: ./.github/actions/goodbye
+      - run: ./.github/actions/goodbye.sh
         shell: bash
